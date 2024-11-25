@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +9,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+html {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px; /* Set the width of the scrollbar */
+}
+/* Target the thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #5d5d5d85; /* Set the color of the thumb */
+  border-radius: 5px; /* Round the corners of the thumb */
+}
+::-webkit-scrollbar-track {
+  background: #121212; /* Set the color of the track */
 }
