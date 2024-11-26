@@ -14,7 +14,7 @@ function Navbar() {
             </div>
             <div className="">
               <a href="https://docs.google.com/document/d/1nR8o245tyWA0xCOwHJnKdGQtRe_uhGx6IvIBOHTr-pM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-                <button className="bg-neutral-950 backdrop-filter backdrop-blur-lg bg-opacity-20 px-5 py-2 rounded-lg text-sm text-white tracking-wider font-semibold border border-indigo-950">
+                <button className="bg-neutral-950 backdrop-filter backdrop-blur-lg bg-opacity-20 px-5 py-2 rounded-lg text-sm text-white tracking-wider font-semibold border border-blue-900 hover:bg-blue-900 transition-all duration-1000">
                   RESUME
                 </button>
               </a>
